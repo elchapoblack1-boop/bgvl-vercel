@@ -1,5 +1,5 @@
 {
   "framework": "nextjs",
-  "buildCommand": "ls src/components/ && ls src/contexts/ && ls src/lib/ && npm run build",
+  "buildCommand": "cat tsconfig.json && npm run build",
   "installCommand": "npm install"
 }
