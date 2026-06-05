@@ -1,7 +1,7 @@
 'use client'
-import Navbar from '@/components/Navbar'
-import { Footer } from '@/components/Sections'
-import { WhatsAppCTA, StickyBottomBar } from '@/components/SubtleMonetization'
+import Navbar from '../../components/Navbar'
+import { Footer } from '../../components/Sections'
+import { WhatsAppCTA, StickyBottomBar } from '../../components/SubtleMonetization'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // DOCUMENT TEMPLATES STORE

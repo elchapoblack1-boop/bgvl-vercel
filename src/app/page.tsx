@@ -1,8 +1,8 @@
-import Navbar from '@/components/Navbar'
-import HeroSection from '@/components/HeroSection'
-import PriceTicker from '@/components/PriceTicker'
-import { StatsSection, Footer } from '@/components/Sections'
-import { PartnerLogoStrip } from '@/components/SubtleMonetization'
+import Navbar from '../components/Navbar'
+import HeroSection from '../components/HeroSection'
+import PriceTicker from '../components/PriceTicker'
+import { StatsSection, Footer } from '../components/Sections'
+import { PartnerLogoStrip } from '../components/SubtleMonetization'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Homepage — identical structure to original, plus:

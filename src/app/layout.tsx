@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { LangProvider } from '@/contexts/LangContext'
+import { LangProvider } from '../contexts/LangContext'
 import { Toaster } from 'react-hot-toast'
-import { dbAll } from '@/lib/db'
-import Preloader from '@/components/Preloader'
+import { dbAll } from '../lib/db'
+import Preloader from '../components/Preloader'
 import Script from 'next/script'
-import { WhatsAppCTA, ScrollPopup, StickyBottomBar } from '@/components/SubtleMonetization'
+import { WhatsAppCTA, ScrollPopup, StickyBottomBar } from '../components/SubtleMonetization'
 
 export const metadata: Metadata = {
   title: 'Ballon Global Ventures Limited — Global Agricultural & Petroleum Export',

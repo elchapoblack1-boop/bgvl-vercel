@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { dbAll, dbRun } from '@/lib/db'
-import { sendContactEmails } from '@/lib/email'
-import { sendWhatsAppContactNotification } from '@/lib/whatsapp'
-import { isAdminAuthenticated } from '@/lib/auth'
+import { dbAll, dbRun } from '../../../lib/db'
+import { sendContactEmails } from '../../../lib/email'
+import { sendWhatsAppContactNotification } from '../../../lib/whatsapp'
+import { isAdminAuthenticated } from '../../../lib/auth'
 
 function generateId() {
   return 'MSG-' + Date.now() + '-' + Math.random().toString(36).substr(2,6).toUpperCase()

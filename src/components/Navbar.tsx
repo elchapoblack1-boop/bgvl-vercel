@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { useLang } from '@/contexts/LangContext'
-import { LANGUAGES, LangCode } from '@/lib/translations'
+import { useLang } from '../contexts/LangContext'
+import { LANGUAGES, LangCode } from '../lib/translations'
 
 export default function Navbar() {
   const { t, lang, setLang } = useLang()

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { dbAll, dbTransaction } from '@/lib/db'
-import { isAdminAuthenticated } from '@/lib/auth'
+import { dbAll, dbTransaction } from '../../../../lib/db'
+import { isAdminAuthenticated } from '../../../../lib/auth'
 
 export async function GET() {
   const rows = await dbAll('SELECT key, value FROM settings')

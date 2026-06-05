@@ -1,5 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "xxd src/contexts/LangContext.tsx | head -3 && npm run build",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
   "installCommand": "npm install"
 }

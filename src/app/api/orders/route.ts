@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { dbAll, dbRun } from '@/lib/db'
-import { sendOrderEmails } from '@/lib/email'
-import { sendWhatsAppNotification } from '@/lib/whatsapp'
-import { isAdminAuthenticated } from '@/lib/auth'
-import { buildWhatsAppMessage, buildWhatsAppLink } from '@/lib/emailTemplates'
+import { dbAll, dbRun } from '../../../lib/db'
+import { sendOrderEmails } from '../../../lib/email'
+import { sendWhatsAppNotification } from '../../../lib/whatsapp'
+import { isAdminAuthenticated } from '../../../lib/auth'
+import { buildWhatsAppMessage, buildWhatsAppLink } from '../../../lib/emailTemplates'
 
 function generateId() {
   return 'ORD-' + Date.now() + '-' + Math.random().toString(36).substr(2,6).toUpperCase()

@@ -1,10 +1,10 @@
 'use client'
-import { useLang } from '@/contexts/LangContext'
+import { useLang } from '../contexts/LangContext'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import toast from 'react-hot-toast'
-import { FooterNewsletterRow, FooterAdUnit, VerifiedSupplierInlineCTA, ReportDownloadCard, SponsoredProductCard } from '@/components/SubtleMonetization'
+import { FooterNewsletterRow, FooterAdUnit, VerifiedSupplierInlineCTA, ReportDownloadCard, SponsoredProductCard } from '../components/SubtleMonetization'
 
 // ── STATS ──────────────────────────────────────────────
 export function StatsSection() {

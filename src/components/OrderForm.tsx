@@ -1,11 +1,11 @@
 'use client'
-import { PriorityOrderUpsell } from '@/components/SubtleMonetization'
+import { PriorityOrderUpsell } from '../components/SubtleMonetization'
 
 // Priority state is lifted here so OrderForm can include it in POST body
 let _prioritySelected = false
 export function setPrioritySelected(v: boolean) { _prioritySelected = v }
 import { useState, useEffect } from 'react'
-import { useLang } from '@/contexts/LangContext'
+import { useLang } from '../contexts/LangContext'
 import toast from 'react-hot-toast'
 
 const AGRI_PRODUCTS = ['Sesame Seeds (Natural)','Sesame Seeds (Hulled)','Shea Nuts','Shea Butter (Unrefined)','Shea Butter (Refined)','Cashew Nuts (RCN)','Cashew Kernels (W180–W450)','Hibiscus Flower (Roselle)','Soya Beans','Palm Kernel Nuts','Palm Kernel Oil','Groundnuts','Ginger','Turmeric','Other Agricultural']

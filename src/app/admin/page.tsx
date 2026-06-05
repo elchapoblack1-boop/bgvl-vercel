@@ -2,8 +2,8 @@
 import { useState, useEffect, useCallback } from 'react'
 import Image from 'next/image'
 import toast from 'react-hot-toast'
-import { useLang } from '@/contexts/LangContext'
-import { LANGUAGES, LangCode, BASE_TRANSLATIONS } from '@/lib/translations'
+import { useLang } from '../../contexts/LangContext'
+import { LANGUAGES, LangCode, BASE_TRANSLATIONS } from '../../lib/translations'
 
 type Order = Record<string, string>
 type Message = { id: string; name: string; email: string; subject: string; message: string; is_read: number; created_at: string }

@@ -1,8 +1,8 @@
 'use client'
 import { useState } from 'react'
-import Navbar from '@/components/Navbar'
-import { Footer } from '@/components/Sections'
-import { WhatsAppCTA, StickyBottomBar } from '@/components/SubtleMonetization'
+import Navbar from '../../components/Navbar'
+import { Footer } from '../../components/Sections'
+import { WhatsAppCTA, StickyBottomBar } from '../../components/SubtleMonetization'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // REFERRAL PROGRAM PAGE

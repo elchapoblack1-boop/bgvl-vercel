@@ -1,5 +1,5 @@
 'use client'
-import { useLang } from '@/contexts/LangContext'
+import { useLang } from '../contexts/LangContext'
 import Link from 'next/link'
 
 export default function HeroSection() {

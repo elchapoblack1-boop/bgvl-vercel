@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { verifyPassword, signAdminToken, isAdminAuthenticated } from '@/lib/auth'
-import { dbGet, dbAll } from '@/lib/db'
+import { verifyPassword, signAdminToken, isAdminAuthenticated } from '../../../../lib/auth'
+import { dbGet, dbAll } from '../../../../lib/db'
 
 export async function POST(req: NextRequest) {
   const { password } = await req.json()

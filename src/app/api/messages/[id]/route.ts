@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { dbRun } from '@/lib/db'
-import { isAdminAuthenticated } from '@/lib/auth'
+import { dbRun } from '../../../../lib/db'
+import { isAdminAuthenticated } from '../../../../lib/auth'
 
 export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
   if (!isAdminAuthenticated()) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { isAdminAuthenticated } from '@/lib/auth'
-import { sendAdminReply } from '@/lib/email'
+import { isAdminAuthenticated } from '../../../../lib/auth'
+import { sendAdminReply } from '../../../../lib/email'
 
 export async function POST(req: NextRequest) {
   if (!isAdminAuthenticated()) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
