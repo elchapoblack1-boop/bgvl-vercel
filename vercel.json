@@ -1,5 +1,5 @@
 {
   "framework": "nextjs",
-  "buildCommand": "head -5 src/app/admin/page.tsx && head -5 src/app/jobs/page.tsx && npm run build",
+  "buildCommand": "wc -c src/components/Navbar.tsx src/contexts/LangContext.tsx src/lib/translations.ts && npm run build",
   "installCommand": "npm install"
 }
