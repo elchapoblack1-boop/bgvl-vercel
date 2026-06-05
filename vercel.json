@@ -1,5 +1,5 @@
 {
   "framework": "nextjs",
-  "buildCommand": "cat tsconfig.json && npm run build",
+  "buildCommand": "head -5 src/app/admin/page.tsx && head -5 src/app/jobs/page.tsx && npm run build",
   "installCommand": "npm install"
 }
