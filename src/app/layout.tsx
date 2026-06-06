@@ -44,7 +44,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         ──────────────────────────────────────────────────────────────────────
       */}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4418162798625932"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
       <body>
         <LangProvider serverTranslations={serverTranslations}>
           <Preloader />
