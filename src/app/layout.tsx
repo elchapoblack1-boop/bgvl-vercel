@@ -43,12 +43,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         4. Replace the placeholder div in SubtleMonetization.tsx with real <ins> tags
         ──────────────────────────────────────────────────────────────────────
       */}
-      <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4418162798625932"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4418162798625932"
+     crossorigin="anonymous"></script>
       <body>
         <LangProvider serverTranslations={serverTranslations}>
           <Preloader />
